@@ -291,7 +291,7 @@
 
 /* latest deal section star */
 .latest-deal-section{
-    padding: 100px 140px 40px 170px;
+    padding: 100px 140px 70px 170px;
 }
 
 .latest-deal-inner{
@@ -321,12 +321,116 @@
 }
 /* latest deal section end */
 
+/* review section start */
+.review-section{
+    background-color: #e4e0e5;
+    padding: 60px 140px 60px 170px;
+}
+.review-cards{
+    margin-top: 40px;
+
+}
+.review-card{
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px 20px 15px 20px;
+    box-shadow: -30px 30px 32px rgba(0,0,0,0.3);
+
+}
+.checked{
+    color: orange;
+    margin-bottom: 5px;
+}
+.review-description{
+    line-height: 25px;
+    color: rgb(29, 33, 41);
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.review-card a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(29, 33, 41, 0.5);
+}
+.review-card a:hover{
+   border-bottom: 1px solid #ddd;
+}
+
+.review-social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.review-social img{
+    border: 3px solid #89CFF0;
+    border-radius: 50px;
+}
+.review-social-info{
+    margin-left: 15px;
+}
+.review-social-info h4{
+    font-size: 12px;
+    color: rgba(29, 33, 41, 0.5);
+}
+.review-social-info h2 a{
+    margin-top: 0px;
+    font-size: 18px;
+    color: rgb(104, 139, 185);
+}
+
+.review-card-icon{
+    height: 55px;
+    width: 100px;
+    rotate: 225deg;
+}
+/* review extra section  */
+.review-under-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.review-under-image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 44px;
+    margin-left: 46px;
+}
+
+.review-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+.review-under-image h3{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.review-under-image h3:hover{
+    border-bottom: 1px solid black;
+}
+
+
+/* review section end  */
+
 /* footer section start */
 .footer-section{
     background-color: #111010;
-    margin-top: 30px;
+    margin-top: 1px;
     padding: 90px;
 }
+
 .footer-title{
     color: #E55473;
 }
