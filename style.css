@@ -254,3 +254,68 @@
 
 }
 /* instagram section end  */
+
+/* hot-deal-section start */
+.hot-deal-section{
+    padding: 100px 140px 40px 170px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+
+}
+.hot-deal-info{
+    padding: 20px;
+    text-align: center;
+}
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.hot-deal-color{
+    color: #E55473;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 500px;
+    }
+/* hot deal section end */
+
+/* latest deal section star */
+.latest-deal-section{
+    padding: 100px 140px 40px 170px;
+}
+
+.latest-deal-inner{
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 240px 100px 240px;
+}
+#input-email{
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 0px 0px 0px 20px;
+    margin-right: 12px;
+
+
+}
+.latest-deal-input{
+    text-align: center;
+    margin-top: 45px;
+}
+/* latest deal section end */
