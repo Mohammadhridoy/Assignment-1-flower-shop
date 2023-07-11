@@ -107,7 +107,39 @@
     justify-content: space-around;
     align-items: center;
     gap: 71px;
+  
 }
+.style-extra-title{
+    position: relative;
+}
+
+.style-extra-title::before{
+    content: '';
+    position: absolute ; 
+    bottom:0;
+    left:0;
+    width:48%;
+    height:30px;
+    background-color:rgba(0,0,0,0.3);
+    transform:skewY(-7deg);
+    z-index:-1; 
+    filter: blur(6px); 
+    transform-origin: right;
+}
+.style-extra-title::after{
+    content: '';
+    position: absolute ; 
+    bottom:0;
+    right:0;
+    width:48%;
+    height:30px;
+    background-color:rgba(0,0,0,0.3);
+    transform:skewY(8deg);
+    z-index:-1; 
+    filter: blur(6px); 
+    transform-origin: left;
+}
+
 .feature-image-title h3{
     color: #272727;
     text-align: center;
